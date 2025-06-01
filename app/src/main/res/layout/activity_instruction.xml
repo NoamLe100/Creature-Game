@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/noamle1"
+    tools:context=".INSTRUCTION">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="306dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="4dp"
+        android:text="INSTRUCTION"
+        android:textColor="#FBFBFB"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="402dp"
+        android:layout_height="683dp"
+        android:layout_marginTop="20dp"
+        android:text="היי אתה יכול לזוז בעזרת המקשים W,S,D,A המטרה שלך במשחק היא להתפתח ולגדול כמה שיותר ולהפוך ליוצר החזק ביותר איך אתה גורם לכך? אתה צריך להעלות את היצור שלך ברמות וככה תוכל לשדרג את היכולות שלו כמו התקפה הגנה או להגדיל את השוות שלך אתה מתחיל מיצור קטן ומתפס את דרכך לפסגה ככול שתעלה ברמות ככה פחות יצורים יהבו לך איום"
+        android:textColor="#FF0000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="87dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:backgroundTint="#000000"
+        android:text="Exit"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
